@@ -1,4 +1,2 @@
-setTimeout(() => {
-  const heading = document.querySelector('#pageHeading');
-  heading.textContent = 'Goodbye!';
-}, 500);
+const heading = document.querySelector('#pageHeading');
+heading.textContent = 'Goodbye!';
